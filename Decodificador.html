@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Codificador-Decodificador</title>
+        <!-- <meta name="viewport" content="width-device-width"> -->
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styleDecodificador.css">
+        <script src="encryptdecrypt.js"></script>
+    </head>
+    <body>
+        <header>
+            <img class="imagen-logo-a" src = "a.svg" alt="My Happy SVG"/>
+        </header>
+        <main>
+            <textarea id="input-text" placeholder="ingrese el texto" type="text"></textarea>
+            <textarea id="output-text"></textarea>
+            <img id="imagen-muneco" src="muneco.svg" alt="muneco">
+            <p id="texto-image-output1">Ningun mensaje fue <br>encontrado</p>
+            <p id="texto-image-output2">Ingresa el texto que desees encriptar o <br>desencriptar</p>
+            <button type="button" id="boton-copia-portapapeles" onclick="copiarPortapapeles()">Copiar</button>
+
+            </div>
+
+            <div id="exclamacion"></div>
+            
+            <div>
+                <p id="advertencia-uso">letras minusculas y sin acento</p>
+                <button id="desencriptar" onclick="descencriptar()">Desencriptar</button>
+                <button id="encriptar" onclick="encriptar()">Encriptar</button>
+            </div>
+
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
